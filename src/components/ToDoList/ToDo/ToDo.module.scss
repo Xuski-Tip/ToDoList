@@ -1,0 +1,35 @@
+.item__todo {
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 250px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.item__delete {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
+.item__text {
+    display: inline-block;
+    cursor: pointer;
+}
+.strike {
+    text-decoration: line-through;
+}
+.hide {
+  display: none;
+}
