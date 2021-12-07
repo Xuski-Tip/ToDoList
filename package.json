@@ -1,7 +1,7 @@
 {
-  "name": "to-do-list",
+  "name": "todolist",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "classnames": "^2.3.1",
     "node-sass": "^4.0.1",
